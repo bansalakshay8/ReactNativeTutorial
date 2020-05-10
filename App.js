@@ -5,6 +5,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 import Screen1 from './src/components/RNSA';
 import Screen2 from './src/components/RNSB';
 import Screen3 from './src/components/RNSC';
+import MyImagePicker from './src/components/MyImagePicker';
 
 const DrawerNavigatorExample = createDrawerNavigator({
   //Drawer Optons and indexing
@@ -20,6 +21,9 @@ const DrawerNavigatorExample = createDrawerNavigator({
       title:'Tab Navigation'
     }
   },
+  Screen4:{
+    screen: MyImagePicker,
+  }
 });
 
 export default createAppContainer(DrawerNavigatorExample);
