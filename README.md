@@ -1,5 +1,5 @@
 # ReactNativeTutorial
 It consists tutorials related to react native.
 
-![NYT Logo](https://ibb.co/Cn9VMKb)
+![NYT Logo](Screenshot_1589804245.png)
 
